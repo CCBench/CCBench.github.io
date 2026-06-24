@@ -1,0 +1,34 @@
+# Site settings
+title: CC-Bench
+tagline: High-Performance Communication & Compression Benchmark Framework
+description: >-
+  A modular benchmark framework for HPC scenarios, supporting MPI / NCCL / RCCL
+  communication backends with LD_PRELOAD-based instrumentation.
+url: "https://CCBench.github.io"
+baseurl: ""
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima theme customization
+minima:
+  date_format: "%b %-d, %Y"
+
+header_pages:
+  - index.md
+  - leaderboard.md
+  - news.md
+  - about.md
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Google Analytics (optional - uncomment to use)
+# google_analytics: UA-NNNNNNNN-N

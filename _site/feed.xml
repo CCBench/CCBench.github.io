@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2026-06-24T14:55:25+08:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">CC-Bench</title><subtitle>A modular benchmark framework for HPC scenarios, supporting MPI / NCCL / RCCL communication backends with LD_PRELOAD-based instrumentation.</subtitle><entry><title type="html">CC-Bench v1.0 Released</title><link href="http://0.0.0.0:4000/2025/06/01/release-v1.html" rel="alternate" type="text/html" title="CC-Bench v1.0 Released" /><published>2025-06-01T00:00:00+08:00</published><updated>2025-06-01T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2025/06/01/release-v1</id><content type="html" xml:base="http://0.0.0.0:4000/2025/06/01/release-v1.html"><![CDATA[<p>We are excited to announce the first release of CC-Bench, a modular benchmark framework for high-performance communication and compression evaluation in HPC environments.</p>
+
+<p>This initial release includes:</p>
+
+<ul>
+  <li>MPI, NCCL, and RCCL communication backend support</li>
+  <li>LD_PRELOAD-based instrumentation wrappers</li>
+  <li>CCL compression plugin integration</li>
+  <li>Background daemon monitoring</li>
+  <li>JSONC-based configuration with auto-generation scripts</li>
+</ul>
+
+<p>Check the <a href="/leaderboard/">Leaderboard</a> for initial benchmark results.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[We are excited to announce the first release of CC-Bench, a modular benchmark framework for high-performance communication and compression evaluation in HPC environments.]]></summary></entry><entry><title type="html">Initial Benchmark Results Published</title><link href="http://0.0.0.0:4000/2025/05/15/initial-results.html" rel="alternate" type="text/html" title="Initial Benchmark Results Published" /><published>2025-05-15T00:00:00+08:00</published><updated>2025-05-15T00:00:00+08:00</updated><id>http://0.0.0.0:4000/2025/05/15/initial-results</id><content type="html" xml:base="http://0.0.0.0:4000/2025/05/15/initial-results.html"><![CDATA[<p>Initial benchmark results have been published to the leaderboard. The results cover:</p>
+
+<ul>
+  <li>NCCL AllReduce bandwidth benchmarks (256MB, 512MB, 1GB)</li>
+  <li>MPI AllReduce bandwidth benchmarks (256MB, 512MB, 1GB)</li>
+  <li>NCCL AllGather bandwidth benchmarks</li>
+  <li>CCL-compression throughput results</li>
+  <li>Microbenchmark latency measurements</li>
+</ul>
+
+<p>See the full results on the <a href="/leaderboard/">Leaderboard</a> page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Initial benchmark results have been published to the leaderboard. The results cover:]]></summary></entry></feed>

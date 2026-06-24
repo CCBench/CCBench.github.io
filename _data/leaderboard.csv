@@ -1,0 +1,13 @@
+model,backend,metric,value,unit,date
+AllReduce 256MB,NCCL,Bandwidth,89.2,GB/s,2025-05-01
+AllReduce 512MB,NCCL,Bandwidth,94.7,GB/s,2025-05-01
+AllReduce 1GB,NCCL,Bandwidth,97.1,GB/s,2025-05-15
+AllReduce 256MB,MPI,Bandwidth,45.3,GB/s,2025-05-01
+AllReduce 512MB,MPI,Bandwidth,52.8,GB/s,2025-05-01
+AllReduce 1GB,MPI,Bandwidth,56.2,GB/s,2025-05-15
+AllGather 256MB,NCCL,Bandwidth,78.5,GB/s,2025-05-10
+AllGather 512MB,NCCL,Bandwidth,85.1,GB/s,2025-05-10
+AllReduce 256MB (ccl-comp),NCCL,Throughput,72.3,GB/s,2025-06-01
+AllReduce 512MB (ccl-comp),NCCL,Throughput,81.6,GB/s,2025-06-01
+Latency 1B,NCCL,Latency,8.2,us,2025-05-01
+Latency 1B,MPI,Latency,12.5,us,2025-05-01
